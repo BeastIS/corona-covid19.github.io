@@ -5623,16 +5623,16 @@ var Nio = (function (j, w) {
                     .match(/\s([a-z]+)/i)[1]
                     .toLowerCase());
           if (!new RegExp(o).test(s))
-            throw new Error(
-              e.toUpperCase() +
-                ': Option "' +
-                i +
-                '" provided type "' +
-                s +
-                '" but expected type "' +
-                o +
-                '".'
-            );
+//             throw new Error(
+//               e.toUpperCase() +
+//                 ': Option "' +
+//                 i +
+//                 '" provided type "' +
+//                 s +
+//                 '" but expected type "' +
+//                 o +
+//                 '".'
+//             );
         }
       var a;
     },
